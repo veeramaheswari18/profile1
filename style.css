@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.header{
+    height: 100vh;
+    background-color:#041014;
+}
+.nav-links a{
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+.nav-links h4{
+    color: aqua;
+}
+.nav-links a:hover{
+    color: aqua;
+}
+#demo p{
+    font-size: 12px;
+}
+.post{
+    background:#154c79;
+    height:100vh;
+}
+.post p{
+    margin-top: 25%;
+    font-size: 50px;
+}
+.typewriter h1 {
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 5px solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    animation: typing 5.5s steps(50, end), blinking-cursor .5s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%;
+    }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blinking-cursor {
+    from,
+    to {
+      border-color:transparent;
+    }
+    40% {
+      border-color: white;
+    }
+  }
+  .about{
+    background-color:white;
+    height: 100vh;
+  }
+  .about h5{
+    font-size: 17px;
+    
+  }
+  .about h2{
+    font-size: 25px;
+  }
+  .form {
+    padding-top: 30%;
+    font-size: 10px;
+  }
+  .form a button{
+    background-color:aqua;
+    text-transform: capitalize;
+  }
+  .form a:hover button{
+    background-color: transparent;
+  }
+  .form h4{
+    font-size: 18px;
+  }
+  .followme i{
+    font-size: 20px;
+  }
+  .followme p{
+    font-size: 25px;
+  }
